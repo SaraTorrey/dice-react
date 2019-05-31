@@ -3,3 +3,16 @@
     padding: 0.25em;
     color: #fb9079;
 }
+
+.spinning{
+    animation-name: spin;
+    animation-duration: 1s;
+}
+
+@keyframes spin {
+    to{transform:rotateZ(360deg)}
+}
+#dice{
+    display: inline-block;
+    transform-origin: 50% 50%;
+}
